@@ -39,7 +39,6 @@
       "database"
     ],
     "psr-4": {
-      "Mehradsadeghi\\FilterQueryString\\Models\\": "models/",
       "Mehradsadeghi\\FilterQueryString\\Tests\\": "tests/"
     }
   },
