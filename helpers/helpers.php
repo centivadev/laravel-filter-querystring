@@ -17,6 +17,6 @@ if (!function_exists('hasComma')) {
 if (!function_exists('isDateTime')) {
     function isDateTime($value)
     {
-        return date_parse($value)['error_count'] < 1;
+        return date_parse($value)['error_count'] < 1 && preg_match('/\d{4}-\d{2}-\d{2}/', $value);
     }
 }
